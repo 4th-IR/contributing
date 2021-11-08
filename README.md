@@ -3,11 +3,7 @@
 - [Git Commit Guidelines](#git-commit-guidelines)
 
 # Git Commit Guidelines
-<details>
-  <summary>Click to expand!</summary>
-
 ## This topic can be split into two areas of concern
-
 1. The structured set/split of the code changes (i.e. what belongs to a single commit)
 2. The format of the commit message and the information provided in it
 
@@ -84,4 +80,4 @@ https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html<br>
 https://wiki.openstack.org/wiki/GitCommitMessages<br>
 https://chris.beams.io/posts/git-commit
 
-</details>
+[Back to Top](#table-of-contents)
