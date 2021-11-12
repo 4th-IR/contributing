@@ -116,7 +116,7 @@ SSH: `git@github.com:<username>/<repo-name>.git`
 username: pozsa\
 repo-name: contributing\
 method: ssh
-```shell
+```console
 $ git clone git@github.com:pozsa/contributing.git
 Cloning into 'contributing'...
 remote: Counting objects: 10, done.
@@ -138,7 +138,7 @@ git fetch <remote-name>
 ```
 where `<remote-name>` is traditionally set to `upstream`
 #### Example
-```shell
+```console
 $ git remote add upstream git@github.com:4th-IR/contributing.git
 $ git remote -v
 origin  git@github.com:pozsa/contributing.git (fetch)
@@ -159,7 +159,7 @@ From github.com:4th-IR/contributing
 git branch -u <remote-name>/main
 ```
 #### Example
-```shell
+```console
 $ git branch -avv
 * main                  4746caa [origin/main] Add link to wiki home page (#1)
   remotes/origin/HEAD     -> origin/main
@@ -183,7 +183,7 @@ $ git branch -avv
 git checkout -b <branch-name>
 ```
 #### Example
-```shell
+```console
 $ git checkout -b new_feature
 Switched to a new branch 'new_feature'
 ```
@@ -202,7 +202,7 @@ git commit
 git push -u origin <branch-name>
 ```
 #### Example
-```shell
+```console
 $ git push origin new_feature
 Counting objects: 30, done.
 Delta compression using up to 4 threads.
@@ -228,7 +228,7 @@ git checkout main
 git branch --delete <branch-name>
 ```
 #### Example
-```shell
+```console
 $ git push origin --delete new_feature
 To git@github.com:pozsa/contributing.git
  - [deleted]         new_feature
@@ -244,18 +244,18 @@ Deleted branch new_feature (was fb068ab).
 ```
 #### Common Errors
 The branch does not exist on the remote. It never existed to begin with or it has been already deleted.
-```shell
+```console
 $ git push origin --delete cheatsheet
 error: unable to delete 'cheatsheet': remote ref does not exist
 error: failed to push some refs to 'git@github.com:pozsa/contributing.git'
 ```
 Switch to a different branch to be able to delete a local branch
-```shell
+```console
 $ git branch --delete new_feature
 error: Cannot delete the branch 'new_feature' which you are currently on.
 ```
 Git detects a potential situation where you might be losing work. If you are not sure that your changes have been merged, then investigate first.
-```shell
+```console
 $ git branch --delete new_feature
 error: The branch 'new_feature' is not fully merged.
 If you are sure you want to delete it, run 'git branch -D new_feature'.
@@ -266,7 +266,7 @@ If you are sure you want to delete it, run 'git branch -D new_feature'.
 git pull --rebase
 ```
 #### Example
-```shell
+```console
 $ git status
 On branch main
 Your branch is behind 'upstream/main' by 9 commits, and can be fast-forwarded.
