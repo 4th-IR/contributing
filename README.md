@@ -179,6 +179,7 @@ $ git branch -avv
 ### 1. Use local feature branches
 ... or as Enrico Campidoglio said
 > Branch like there's no tomorrow
+
 ```git
 git checkout -b <branch-name>
 ```
@@ -281,18 +282,18 @@ nothing to commit, working directory clean
 ```
 
 ## Basic Git commands
-- [`git add`](https://git-scm.com/docs/git-add) - Add file contents to the index (staging)
-- [`git branch`](https://git-scm.com/docs/git-branch) - List, create, or delete branches
-- [`git checkout`](https://git-scm.com/docs/git-checkout) - Switch branches or restore working tree files
-- [`git clone`](https://git-scm.com/docs/git-clone) - Clone a repository into a new directory
-- [`git commit`](https://git-scm.com/docs/git-commit) - Record changes to the repository
-- [`git diff`](https://git-scm.com/docs/git-diff) - Show changes between commits, commit and working tree, etc
-- [`git fetch`](https://git-scm.com/docs/git-fetch) - Download objects and refs from another repository
-- [`git merge`](https://git-scm.com/docs/git-merge) - Join two or more development histories together
-- [`git pull`](https://git-scm.com/docs/git-pull) - Fetch from and integrate with another repository or a local branch
-- [`git push`](https://git-scm.com/docs/git-push) - Update remote refs along with associated objects
-- [`git rebase`](https://git-scm.com/docs/git-rebase) - Reapply commits on top of another base tip
-- [`git remote`](https://git-scm.com/docs/git-remote) - Manage set of tracked repositories
-- [`git status`](https://git-scm.com/docs/git-status) - Show the working tree status
+- [git add](https://git-scm.com/docs/git-add) - Add file contents to the index (staging)
+- [git branch](https://git-scm.com/docs/git-branch) - List, create, or delete branches
+- [git checkout](https://git-scm.com/docs/git-checkout) - Switch branches or restore working tree files
+- [git clone](https://git-scm.com/docs/git-clone) - Clone a repository into a new directory
+- [git commit](https://git-scm.com/docs/git-commit) - Record changes to the repository
+- [git diff](https://git-scm.com/docs/git-diff) - Show changes between commits, commit and working tree, etc
+- [git fetch](https://git-scm.com/docs/git-fetch) - Download objects and refs from another repository
+- [git merge](https://git-scm.com/docs/git-merge) - Join two or more development histories together
+- [git pull](https://git-scm.com/docs/git-pull) - Fetch from and integrate with another repository or a local branch
+- [git push](https://git-scm.com/docs/git-push) - Update remote refs along with associated objects
+- [git rebase](https://git-scm.com/docs/git-rebase) - Reapply commits on top of another base tip
+- [git remote](https://git-scm.com/docs/git-remote) - Manage set of tracked repositories
+- [git status](https://git-scm.com/docs/git-status) - Show the working tree status
 
 [Back to Top](#table-of-contents)
